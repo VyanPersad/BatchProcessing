@@ -224,7 +224,7 @@ def getPixels(file_path):
     #Set sample size
     n = 10
     #Sample pixels
-    #While at the same yime eiminating the wholly black pixels.
+    #While at the same yime eliminating the wholly black pixels.
     while count != n: 
         for i in range(0,n):
             h = random.randint(1,imgH-1)
